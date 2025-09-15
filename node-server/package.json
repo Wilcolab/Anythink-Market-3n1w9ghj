@@ -1,10 +1,10 @@
 {
-  "name": "js-express-server",
+  "name": "node-server",
   "version": "1.0.0",
-  "description": "A simple Express server project",
-  "main": "src/app.js",
+  "description": "A simple Express server that listens on port 8001.",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/app.js"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
     "express": "^4.17.1"
